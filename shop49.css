@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar article{
+    display: flex;
+}
+.navbar article div{
+    margin: 10px;
+}
+
+.navbar article .free::after{
+    content: "Learn More";
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left:5px;
+    padding: 0px 10px 0px 10px;
+}
