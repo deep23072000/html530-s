@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900;700&display=swap');
+
+*{
+    /* font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: ; 
+    font-style: normal; */
+    font-family: "Qwitcher Grypen", cursive;
+  font-weight: 900;
+  font-style: normal;
+    
+
+}
+
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -18,4 +33,39 @@
     font-weight: 600;
     margin-left:5px;
     padding: 0px 10px 0px 10px;
+}
+
+/* ================mid navbar======== */
+
+.midnavbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.midnavbar article{
+    display: flex;
+
+}
+
+.midnavbar article div img{
+    width: 100px;
+}
+
+.midnavbar article div input{
+    background-color: rgb(232, 231, 231);
+    border: none;
+}
+
+.midnavbar .mida1{
+    background-color: rgb(232, 231, 231);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.midnavbar article div a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
 }
