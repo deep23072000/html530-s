@@ -9,7 +9,8 @@
     font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-style: normal;
-    
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -56,6 +57,7 @@
 .midnavbar article div input{
     background-color: rgb(232, 231, 231);
     border: none;
+    outline: none;
 }
 
 .midnavbar .mida1{
@@ -68,4 +70,71 @@
     text-decoration: none;
     margin: 10px;
     color: black;
+}
+
+/* ======================bottom navbar============= */
+
+.bottomnavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.bottomnavbar div a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* ========================hero============== */
+.hero{
+    display: flex;
+    justify-content: center;
+    /* align-items:center ; */
+    /* width: 100%; */
+}
+
+/* .hero article{
+    padding: 10px;
+} */
+
+.hero .heroa1{
+    width: 18vw;
+    height: 90vh;
+}
+
+
+.hero .heroa1 div img{
+    width: 18vw;
+    height: 90vh;
+
+}
+
+.hero .heroa2{
+    width: 28vw;
+    height: 90vh;
+
+}
+
+
+.hero .heroa2 div img{
+    width: 28vw;
+    height: 90vh;
+
+}
+
+.hero .heroa3{
+    height: 70vh;
+}
+
+.hero .heroa3{
+    width: 48vw;
+
+}
+
+
+.hero .heroa3 div img{
+    width: 48vw;
+    
+    
 }
