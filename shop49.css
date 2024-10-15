@@ -14,6 +14,29 @@
 
 }
 
+._4option div{
+    width: 60px;
+    height: 60px;
+    background-color: darkseagreen;
+    margin: 20px;    
+}
+._4option{
+    position: fixed;
+    right: 0px;
+    top: 200px;
+}
+#phoneicon{
+    background-color: black;
+    color: yellow;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+/* =============================================== */
+
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -79,6 +102,8 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    /* position: absolute;
+    top: 50px; */
 }
 .bottomnavbar div a{
     text-decoration: none;
@@ -90,19 +115,12 @@
 .hero{
     display: flex;
     justify-content: center;
-    /* align-items:center ; */
-    /* width: 100%; */
-}
-
-/* .hero article{
-    padding: 10px;
-} */
+   }
 
 .hero .heroa1{
     width: 18vw;
     height: 90vh;
 }
-
 
 .hero .heroa1 div img{
     width: 18vw;
