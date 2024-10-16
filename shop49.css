@@ -11,6 +11,7 @@
   font-style: normal;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 
 }
 
@@ -156,3 +157,53 @@
     
     
 }
+
+
+/* ==============pcard=========== */
+.pcard article img{
+    width: 300px;
+}
+
+.pcard article{
+    margin: 30px;
+}
+
+.pcard{
+    display: flex;
+    padding: 50px;
+    overflow-x: scroll;
+}
+
+.pcard::-webkit-scrollbar {
+    display: none;
+  }
+
+.pcard article div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+.pcard article div{
+    overflow: hidden;
+}
+
+/* ==================== */
+
+.er article div{
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop49/wp-content/uploads/sites/232/2024/07/shop49-category-1.jpg);
+    width: 300px;
+    height: 300px;
+    
+}
+
+.er article div:hover{
+    scale:1.2;
+    transition: scale 0.5s;
+}
+
+.er article{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
