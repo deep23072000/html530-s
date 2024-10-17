@@ -15,3 +15,11 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.card .cardimage1{
+    width: 300px;
+    height: 400px;
+    background-image: url('./download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
