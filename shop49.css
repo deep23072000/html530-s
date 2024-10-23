@@ -36,6 +36,17 @@
     right: 100px;
     bottom: 100px;
 }
+
+#upkey{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
 /* =============================================== */
 
 .navbar{
@@ -103,6 +114,10 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
     /* position: absolute;
     top: 50px; */
 }

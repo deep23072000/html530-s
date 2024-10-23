@@ -1,6 +1,6 @@
 .maincard{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
 }
 .card{

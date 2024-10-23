@@ -1,0 +1,34 @@
+#hero{
+    background-image: url('https://cdn-hcnah.nitrocdn.com/oWjIFDiNsNoqrXqLNDANaHumEZsIjFml/assets/images/optimized/rev-7d4d0e1/www.namanhr.com/wp-content/uploads/2021/11/715161a340c892483451873312cfdeca.hm_banner1.jpg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+#hero article{
+    position: relative;
+   top: 400px; 
+  /* background-color:black ; */
+  /* opacity: 0.5; */
+  background: rgba(0,0,0, 0.7);
+
+}
+
+#hero article div{
+    font-size: 48px;
+    color: white;
+}
+
+#hero article div::selection{
+    color: red;
+    background-color: green;
+}
+
+/* #hero article div::after{
+    content: "__________________";
+    
+
+} */

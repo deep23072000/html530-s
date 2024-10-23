@@ -1,0 +1,23 @@
+#ani{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    rotate: 0deg;
+}
+
+#ani:hover{
+    rotate: 360deg;
+    transition: rotate 5s;
+}
+#ani1{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    /* scale: 1.2; */
+}
+
+#ani1:hover{
+    width: 500px;
+    height: 500px;
+    transition: all 2s;
+}

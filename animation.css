@@ -1,0 +1,70 @@
+#img1{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    animation-name:ani1 ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */
+    animation-direction: normal;
+}
+
+
+@keyframes ani1 {
+    0%{
+        margin-top: 400px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    10%{
+        margin-top: 0px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    20%{
+        margin-top: 350px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    30%{
+        margin-top: 0px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    40%{
+        margin-top: 300px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    50%{
+        margin-top: 0px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    60%{
+        margin-top: 250px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    70%{
+        margin-top: 0px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    80%{
+        margin-top: 200px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    90%{
+        margin-top: 0px;
+        rotate: 0deg;
+        margin-left: 0px;
+    }
+    100%{
+        margin-top: 0px;
+        rotate: 360deg;
+        margin-left: 1300px;
+    }
+}
+
